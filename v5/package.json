@@ -1,0 +1,16 @@
+{
+  "name": "express-validator-use-v5",
+  "version": "5.0.0",
+  "description": "migration express-validator from version 5 to 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "express": "4.17.1",
+    "express-validator": "5.3.1"
+  }
+}
