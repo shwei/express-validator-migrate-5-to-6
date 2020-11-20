@@ -27,12 +27,6 @@ app.post('/', async (req, res) => {
   }
 });
 
-if (module === require.main) {
-  const port = 3000;
-  app.listen(port, err => {
-    if (err) {
-      throw err;
-    }
-    console.info(`server listening at ${port}`);
-  });
-}
+app.listen(3000, () => {
+  console.info('app listening at port 3000');
+});
